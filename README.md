@@ -34,19 +34,34 @@
 
 ### 🚀 Selected Projects
 
-<div align="center">
-  <a href="https://github.com/ptai-eng/OpenSerial-Studio">
-    <img src="https://github-readme-stats.vercel.app/api/pin?username=ptai-eng&repo=OpenSerial-Studio&theme=radical" alt="OpenSerial-Studio" />
-  </a>
-  <a href="https://github.com/ptai-eng/GoldPan">
-    <img src="https://github-readme-stats.vercel.app/api/pin?username=ptai-eng&repo=GoldPan&theme=radical" alt="GoldPan" />
-  </a>
-</div>
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/ptai-eng/OpenSerial-Studio">
+        <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/cpu.svg" width="60" alt="OpenSerial Studio" />
+        <br />
+        <b>OpenSerial Studio</b>
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/ptai-eng/GoldPan">
+        <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/sparkles.svg" width="60" alt="GoldPan" />
+        <br />
+        <b>GoldPan AI</b>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>A Universal Web Serial Dashboard for IoT. Plug any MCU, send JSON, and instantly get real-time charts & controls.</td>
+    <td>The ultimate privacy-first, multimodal data extraction and Local RAG workspace with 100% local vector storage.</td>
+  </tr>
+</table>
 
 <br/>
 
 <div align="center">
   <b>Let's connect and build something awesome!</b><br/><br/>
+  <p>✉️ <b>24207039@student.hcmus.edu.vn</b></p>
   <a href="mailto:24207039@student.hcmus.edu.vn"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/hkptai/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </div>
