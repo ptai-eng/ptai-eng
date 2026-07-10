@@ -59,6 +59,16 @@
 
 <br/>
 
+### 🏆 Side Quests & Competitions
+
+<div align="center">
+  <a href="https://github.com/ngtanphat-hcmus/GDGoC_AI_Challenge_26">
+    <img src="https://github-readme-stats.vercel.app/api/pin?username=ngtanphat-hcmus&repo=GDGoC_AI_Challenge_26&theme=radical" alt="GDGoC AI Challenge 2026" />
+  </a>
+</div>
+
+<br/>
+
 <div align="center">
   <b>Let's connect and build something awesome!</b><br/><br/>
   <p>✉️ <b>24207039@student.hcmus.edu.vn</b></p>
