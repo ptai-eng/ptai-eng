@@ -63,7 +63,9 @@
 
 <div align="center">
   <a href="https://github.com/ngtanphat-hcmus/GDGoC_AI_Challenge_26">
-    <img src="https://github-readme-stats.vercel.app/api/pin?username=ngtanphat-hcmus&repo=GDGoC_AI_Challenge_26&theme=radical" alt="GDGoC AI Challenge 2026" />
+    <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/bomb.svg" width="60" alt="GDGoC AI Challenge" />
+    <br/>
+    <b>GDGoC AI Challenge 2026</b>
   </a>
 </div>
 
