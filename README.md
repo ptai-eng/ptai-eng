@@ -36,24 +36,32 @@
 
 <table align="center">
   <tr>
-    <td align="center" width="50%">
+    <td align="center" width="33%">
       <a href="https://github.com/ptai-eng/OpenSerial-Studio">
         <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/cpu.svg" width="60" alt="OpenSerial Studio" />
         <br />
         <b>OpenSerial Studio</b>
       </a>
     </td>
-    <td align="center" width="50%">
+    <td align="center" width="33%">
       <a href="https://github.com/ptai-eng/GoldPan">
         <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/sparkles.svg" width="60" alt="GoldPan" />
         <br />
         <b>GoldPan AI</b>
       </a>
     </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/ptai-eng/synapse-mcp">
+        <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/network.svg" width="60" alt="Synapse MCP" />
+        <br />
+        <b>Synapse MCP</b>
+      </a>
+    </td>
   </tr>
   <tr>
     <td>A Universal Web Serial Dashboard for IoT. Plug any MCU, send JSON, and instantly get real-time charts & controls.</td>
     <td>The ultimate privacy-first, multimodal data extraction and Local RAG workspace with 100% local vector storage.</td>
+    <td>A modern, blazing-fast C++20 Header-Only SDK for the Model Context Protocol (Server & Client IPC).</td>
   </tr>
 </table>
 
