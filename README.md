@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=200&section=header&text=Hi%20there%20%F0%9F%91%8B,%20I'm%20Ph%C3%A1t%20T%C3%A0i!&fontSize=50&fontAlignY=35&animation=twinkling" />
 </div>
 
-<h3 align="center">Electronics & Telecommunication Engineer | IoT & AI Enthusiast</h3>
+<h3 align="center">Hoang Kim Phat Tai (PhatTai) — Electronics & Telecommunication Engineer | Open-Source AI & MCP Maintainer</h3>
 
 <br />
 
@@ -93,7 +93,7 @@
 
 <div align="center">
   <b>Let's connect and build something awesome!</b><br/><br/>
-  <p>✉️ <b>24207039@student.hcmus.edu.vn</b></p>
-  <a href="mailto:24207039@student.hcmus.edu.vn"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <p>✉️ <b>phattai09052006@gmail.com</b> | <b>24207039@student.hcmus.edu.vn</b></p>
+  <a href="mailto:phattai09052006@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/hkptai/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </div>
