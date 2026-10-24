@@ -15,29 +15,29 @@
 ### Tech Stack
 
 **Systems, Hardware & Embedded**  
-![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![Rust](https://img.shields.io/badge/rust-%23CE422B.svg?style=for-the-badge&logo=rust&logoColor=white)
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Assembly](https://img.shields.io/badge/assembly-%236E4C13.svg?style=for-the-badge&logo=assemblyscript&logoColor=white)
+![Assembly](https://img.shields.io/badge/assembly-%238B5CF6.svg?style=for-the-badge&logo=assemblyscript&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white)
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
 ![Espressif](https://img.shields.io/badge/espressif-E7352C.svg?style=for-the-badge&logo=espressif&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-03234B.svg?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-0284C7.svg?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 **Software, Web & Backend**  
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/react-%23087EA4.svg?style=for-the-badge&logo=react&logoColor=white)
+![Next JS](https://img.shields.io/badge/Next.js-334155?style=for-the-badge&logo=next.js&logoColor=white)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 **AI, Data & Infrastructure**  
-![MCP](https://img.shields.io/badge/Model_Context_Protocol-181717?style=for-the-badge&logo=anthropic&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%230284C7.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Playwright](https://img.shields.io/badge/-Playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
@@ -51,14 +51,14 @@
   <tr>
     <td align="center" width="50%">
       <a href="https://github.com/ptai-eng/chronos-agent">
-        <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/brain.svg" width="48" alt="CHRONOS Agent" />
+        <img src="./assets/chronos.svg" width="56" height="56" alt="CHRONOS Agent" />
         <br />
         <b>chronos-agent</b>
       </a>
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/ptai-eng/synapse-mcp">
-        <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/network.svg" width="48" alt="Synapse MCP" />
+        <img src="./assets/synapse.svg" width="56" height="56" alt="Synapse MCP" />
         <br />
         <b>synapse-mcp</b>
       </a>
@@ -71,14 +71,14 @@
   <tr>
     <td align="center" width="50%">
       <a href="https://github.com/ptai-eng/GoldPan">
-        <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/sparkles.svg" width="48" alt="GoldPan" />
+        <img src="./assets/goldpan.svg" width="56" height="56" alt="GoldPan" />
         <br />
         <b>GoldPan</b>
       </a>
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/ptai-eng/OpenSerial-Studio">
-        <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/cpu.svg" width="48" alt="OpenSerial Studio" />
+        <img src="./assets/openserial.svg" width="56" height="56" alt="OpenSerial Studio" />
         <br />
         <b>OpenSerial-Studio</b>
       </a>
@@ -96,7 +96,7 @@
 
 <div align="center">
   <a href="https://github.com/ngtanphat-hcmus/GDGoC_AI_Challenge_26">
-    <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/bomb.svg" width="48" alt="GDGoC AI Challenge" />
+    <img src="./assets/gdgoc.svg" width="56" height="56" alt="GDGoC AI Challenge" />
     <br/>
     <b>GDGoC AI Challenge 2026</b>
   </a>
