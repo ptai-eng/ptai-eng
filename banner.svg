@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="100%" height="100%">
+  <defs>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.55"/>
+    </pattern>
+    <pattern id="subgrid" width="125" height="125" patternUnits="userSpaceOnUse">
+      <path d="M 125 0 L 0 0 0 125" fill="none" stroke="#334155" stroke-width="0.9" stroke-opacity="0.65"/>
+    </pattern>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="traceGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="85%" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f59e0b" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, sans-serif; }
+    .cursor { animation: blink 1.1s step-end infinite; }
+    .pulse { animation: pulseOp 3s ease-in-out infinite; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes pulseOp { 0%, 100% { opacity: 0.45; } 50% { opacity: 0.95; } }
+  </style>
+
+  <!-- Background & Engineering Grid -->
+  <rect width="1000" height="220" rx="10" fill="url(#bg)" stroke="#1e293b" stroke-width="1.5"/>
+  <rect width="1000" height="220" rx="10" fill="url(#grid)"/>
+  <rect width="1000" height="220" rx="10" fill="url(#subgrid)"/>
+
+  <!-- Technical Frame Marks -->
+  <line x1="0" y1="36" x2="1000" y2="36" stroke="#1e293b" stroke-width="1"/>
+  <line x1="0" y1="188" x2="1000" y2="188" stroke="#1e293b" stroke-width="1"/>
+  <line x1="640" y1="36" x2="640" y2="188" stroke="#1e293b" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Top Status Bar (Datasheet / Logic Analyzer Header) -->
+  <circle cx="22" cy="18" r="4" fill="#22c55e" class="pulse"/>
+  <text x="34" y="22" fill="#64748b" font-size="11" class="mono" letter-spacing="1">SYS.ONLINE // VNU-HCMUS • ETE</text>
+  <text x="980" y="22" fill="#475569" font-size="11" class="mono" text-anchor="end" letter-spacing="1">CH1: 3.3VLOGIC   CH2: RF_TX   [10.8231° N, 106.6297° E]</text>
+
+  <!-- Right Side: Logic Analyzer Digital PWM + Analog Carrier Wave + PCB Routing -->
+  <!-- Digital Square Wave (CH1) -->
+  <path d="M 520 82 L 560 82 L 560 58 L 595 58 L 595 82 L 620 82 L 620 58 L 670 58 L 670 82 L 690 82 L 690 58 L 740 58 L 740 82 L 780 82 L 780 58 L 815 58 L 815 82 L 855 82 L 855 58 L 910 58 L 910 82 L 950 82"
+        fill="none" stroke="url(#traceGrad)" stroke-width="1.8" stroke-linejoin="round"/>
+  <text x="958" y="64" fill="#22d3ee" font-size="10" class="mono" opacity="0.8">CLK</text>
+
+  <!-- PCB Trace / Bus Lines (CH2) -->
+  <path d="M 560 148 L 650 148 L 672 126 L 760 126 L 782 148 L 880 148 L 900 128 L 945 128"
+        fill="none" stroke="url(#amberGrad)" stroke-width="1.6"/>
+  <path d="M 610 164 L 710 164 L 732 142 L 835 142 L 855 162 L 945 162"
+        fill="none" stroke="#334155" stroke-width="1.2"/>
+
+  <!-- PCB Vias (Nodes) -->
+  <circle cx="672" cy="126" r="3" fill="#090d16" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="760" cy="126" r="3" fill="#090d16" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="945" cy="128" r="3.5" fill="#f59e0b"/>
+  <circle cx="732" cy="142" r="2.5" fill="#090d16" stroke="#64748b" stroke-width="1.5"/>
+  <circle cx="945" cy="162" r="2.5" fill="#64748b"/>
+  <text x="958" y="132" fill="#f59e0b" font-size="10" class="mono" opacity="0.85">TX0</text>
+
+  <!-- Left Side: Main Identity -->
+  <text x="36" y="72" fill="#38bdf8" font-size="12" class="mono" letter-spacing="2">$ whoami</text>
+  <text x="36" y="114" fill="#f8fafc" font-size="34" font-weight="700" class="sans" letter-spacing="-0.5">Hoang Kim Phat Tai</text>
+  <text x="368" y="114" fill="#64748b" font-size="20" font-weight="400" class="mono">/ ptai-eng</text>
+
+  <text x="36" y="146" fill="#94a3b8" font-size="14.5" class="mono">
+    Electronics &amp; Telecom Engineering • Embedded Firmware • Systems &amp; MCP Tooling<tspan fill="#38bdf8" class="cursor">_</tspan>
+  </text>
+
+  <!-- Bottom Footer Bar -->
+  <text x="36" y="208" fill="#64748b" font-size="11" class="mono">STACK: C / C++23 / RUST / ASM / PYTHON / TS</text>
+  <text x="980" y="208" fill="#64748b" font-size="11" class="mono" text-anchor="end">TARGETS: ESP32 • STM32 • LINUX • LOCAL-RAG</text>
+</svg>
