@@ -86,7 +86,7 @@
   </tr>
   <tr>
     <td>Local document extraction and RAG workspace. Converts PDFs, audio, images, and web pages into Markdown backed by local ChromaDB vector storage.</td>
-    <td>Web Serial telemetry dashboard for microcontrollers. Streams JSON over UART/USB directly into browser-based real-time plots and control panels.</td>
+    <td>Web Serial & MCP hardware telemetry workstation (v3.1.1). Features Radix-2 FFT spectral metrology, IEEE-1057 sine fitting, 64-core RISC-V GPU framebuffer visualization, and 4-platform firmware codegen.</td>
   </tr>
 </table>
 
